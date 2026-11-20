@@ -2,6 +2,17 @@
   "formatVersion": 1,
   "entries": [
     {
+      "id": "333icet333.my-app",
+      "name": "my-app",
+      "kind": "Blueprint",
+      "version": "0.1.0",
+      "path": "blends/333icet333.my-app",
+      "license": "MIT",
+      "category": "workshop",
+      "description": "the board my agent built",
+      "runtime": "acrylblends"
+    },
+    {
       "id": "acrylblends.agent",
       "name": "An app that builds itself",
       "kind": "Blueprint",
