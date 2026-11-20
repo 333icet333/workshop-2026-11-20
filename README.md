@@ -18,6 +18,7 @@ npm run dev
 <!-- entries:start -->
 | Entry | By | What it is |
 | --- | --- | --- |
+| [`333icet333.my-app`](blends/333icet333.my-app/) | 333icet333 | the board my agent built |
 | [`acrylblends.agent`](blends/acrylblends.agent/) | acrylblends | A small app with an offline agent and live plugin install: ask for a feature and the agent writes it into the running app, through the door. Development only: production leaves the agent out. |
 | [`acrylblends.chat`](blends/acrylblends.chat/) | acrylblends | An AI chat app: the answer streams token by token from an OpenAI-compatible API (DeepSeek by default), history in SQLite, a Stop button. Closed in production until it has an access token. |
 | [`acrylblends.notes-desktop`](blends/acrylblends.notes-desktop/) | acrylblends | A multi-user notes app (sign-up, log-in, search, SQLite with migrations) that opens in its own desktop window as well as in the browser. |
