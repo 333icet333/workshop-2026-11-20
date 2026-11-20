@@ -1,0 +1,221 @@
+{
+  "formatVersion": 3,
+  "generator": {
+    "name": "@acryldev/blends-core",
+    "version": "0.6.0"
+  },
+  "origin": {
+    "id": "acrylblends.my-app",
+    "kind": "Blueprint",
+    "version": "0.1.0",
+    "digest": "10cc735b379310cd0ab11349cafe0733a3c654243a28a20433003f29dd36fc34"
+  },
+  "parameters": {
+    "approval": false,
+    "hostname": "127.0.0.1",
+    "steps": 12,
+    "taskStore": "jsonl"
+  },
+  "rows": [
+    {
+      "id": "tasks",
+      "name": "tasks",
+      "config": {
+        "store": "jsonl"
+      }
+    },
+    {
+      "id": "model",
+      "name": "model"
+    },
+    {
+      "id": "tools",
+      "name": "tools"
+    },
+    {
+      "id": "memory",
+      "name": "memory"
+    },
+    {
+      "id": "agent",
+      "name": "agent",
+      "config": {
+        "steps": 12
+      }
+    },
+    {
+      "id": "router",
+      "name": "acryl-router"
+    },
+    {
+      "id": "home",
+      "name": "home"
+    },
+    {
+      "id": "state",
+      "name": "acryl-state"
+    },
+    {
+      "id": "sandbox",
+      "name": "sandbox"
+    },
+    {
+      "id": "extensions",
+      "name": "extensions",
+      "config": {
+        "approval": false
+      }
+    },
+    {
+      "id": "builder",
+      "name": "builder"
+    },
+    {
+      "id": "plugin-share",
+      "name": "plugin-share"
+    },
+    {
+      "id": "save",
+      "name": "save"
+    },
+    {
+      "id": "agent-panel",
+      "name": "agent-panel"
+    },
+    {
+      "id": "routes",
+      "name": "routes"
+    },
+    {
+      "id": "board",
+      "name": "board"
+    },
+    {
+      "id": "server",
+      "name": "acryl-node-server",
+      "config": {
+        "hostname": "127.0.0.1"
+      }
+    },
+    {
+      "id": "acryl-door",
+      "name": "acryl-door"
+    }
+  ],
+  "modules": [
+    {
+      "name": "${name}",
+      "origin": "local",
+      "digest": "sha256:0578476190175ab7cc868190604c1c7ea9609f84a347c86723086577d742fbe3",
+      "source": "plugins/extensions"
+    },
+    {
+      "name": "agent",
+      "origin": "local",
+      "digest": "sha256:b8b0d47dd0aa7e4f6e78e68926cb63829fe9e85e94afb496538aad03b209cdd6",
+      "source": "plugins/agent"
+    },
+    {
+      "name": "agent-panel",
+      "origin": "local",
+      "digest": "sha256:d3719d96819254b0739972532fd70d13353c0ddf81acdfead792777dd8c18555",
+      "source": "plugins/agent-panel"
+    },
+    {
+      "name": "board",
+      "origin": "local",
+      "digest": "sha256:358d9edadf3c05870c5140b0cf43f0601a8c3fbdb622a97b39aed2ea89d8ac55",
+      "source": "plugins/board"
+    },
+    {
+      "name": "builder",
+      "origin": "local",
+      "digest": "sha256:0f5a27b195cd9a52088552bd426392f41045a727008397b39927f830a918f1e0",
+      "source": "plugins/builder"
+    },
+    {
+      "name": "door",
+      "origin": "local",
+      "digest": "sha256:d2f045133e5891b0f3db8a92ceee45e4d4ddc220f86cb93a2d32059522d7f442",
+      "source": "plugins/door"
+    },
+    {
+      "name": "drivers",
+      "origin": "local",
+      "digest": "sha256:a1eca1adb8719c89e1fd3cf77f79c869b52fa503bda0feb37b53ddf3890e1997",
+      "source": "plugins/drivers"
+    },
+    {
+      "name": "home",
+      "origin": "local",
+      "digest": "sha256:f0a6eb0bc35e1959f831c3de8bc03c187c8899610bcfa0d7bd92332f1d2118bf",
+      "source": "plugins/home"
+    },
+    {
+      "name": "manifest",
+      "origin": "local",
+      "digest": "sha256:a9fa3e36f001de5087457e690ac5c3b8a43a1f4d4c6f5b0f7759f24d397871f7",
+      "source": "plugins/manifest"
+    },
+    {
+      "name": "node-server",
+      "origin": "local",
+      "digest": "sha256:dde2497ca5ca7246d261ae63a0ecb57774ff1ff613cab176fb36e43c1d434084",
+      "source": "plugins/node-server"
+    },
+    {
+      "name": "openai",
+      "origin": "local",
+      "digest": "sha256:b6207ea2227dde77441bd15293a53d4ba1dedfb417cb2292bb01551c89461d63",
+      "source": "plugins/openai"
+    },
+    {
+      "name": "page",
+      "origin": "local",
+      "digest": "sha256:1935035c8e1ece435fee2eb6ee61a76aa5ae8b6e7c7035367d45587f1de22686",
+      "source": "plugins/page"
+    },
+    {
+      "name": "plugin-share",
+      "origin": "local",
+      "digest": "sha256:053ac35a9c2b7e7b125e923a65d15136b100efe6aca4b4353178067465d2b43c",
+      "source": "plugins/plugin-share"
+    },
+    {
+      "name": "router",
+      "origin": "local",
+      "digest": "sha256:e6ffcb8813001ec103f37ebeff48dbf6ad607df6269678f5e43bee398eab541b",
+      "source": "plugins/router"
+    },
+    {
+      "name": "sandbox",
+      "origin": "local",
+      "digest": "sha256:18f122689c4e14d278837572cb321a73680747e3c9952a7876f4d66dce826dc4",
+      "source": "plugins/sandbox"
+    },
+    {
+      "name": "save",
+      "origin": "local",
+      "digest": "sha256:77689b64138e3c784fa5e0931717f4ccc1df51e244ad4c01d362ce2b9e9a7797",
+      "source": "plugins/save"
+    },
+    {
+      "name": "state",
+      "origin": "local",
+      "digest": "sha256:5d524e313089d2ed76d29899de17a59b595bde8786c2d89c07aa88cf01112002",
+      "source": "plugins/state"
+    },
+    {
+      "name": "tasks",
+      "origin": "local",
+      "digest": "sha256:4599137c20daaf3c44f1c20a2ab90db4396711bb27e03aa85ac55bd80f4bb748",
+      "source": "plugins/tasks"
+    },
+    {
+      "name": "web-server",
+      "origin": "local",
+      "digest": "sha256:8aea9216006f128c8a784edb21d701b0fa7f6b427dbe2dff1717bd4d3991eb51",
+      "source": "plugins/web-server"
+    }
+  ]
+}
