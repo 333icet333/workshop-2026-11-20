@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "agent",
+    "agent-panel",
+    "builder",
+    "door",
+    "drivers",
+    "extensions",
+    "home",
+    "manifest",
+    "node-server",
+    "openai",
+    "page",
+    "plugin-share",
+    "router",
+    "sandbox",
+    "save",
+    "state",
+    "tasks",
+    "web-server"
+  ]
+}
